@@ -1,0 +1,125 @@
+.uk-text-center{
+    background-color: rgb(0, 0, 0);
+    
+}
+.uk-text-center>a > h1{
+    color:#00ffea;
+    font-family: 'Fredoka One', cursive;
+    border: 5px solid #00ffea;
+    
+    
+}
+
+html{
+  background-color:#000000 ;
+}
+
+.uk-container>h2{
+ color: #00ffea;
+}
+
+
+
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #00ffea;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #ff0000;
+  color: black;
+}
+
+div.gallery {
+  margin: 5px;
+  
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #00ffea;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #00ffea;
+}
+.container {
+  position: relative;
+  width: 180px;
+  float: left;
+  
+}
+
+.image {
+  display: block;
+  width: 220px;
+  height: auto;
+  padding: 3px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 5;
+}
+
+.text {
+  color:#00ffea;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
